@@ -1,5 +1,8 @@
 ### Spring Profiles를 이용한 운영/개발 환경 구분
 
+#### Activated Profiles 확인
+    http://localhost:8080/profiles
+
 #### 세팅방법
     Profiles별 application-{profile}.properties 작성 (ex : application-dev.properties)
     현 프로젝트의 경우 dev가 default로 세팅되어있음.
